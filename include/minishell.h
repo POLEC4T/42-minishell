@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minishell.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nle-gued <nle-gued@student.42lyon.fr>      +#+  +:+       +#+        */
+/*   By: mniemaz <mniemaz@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 09:53:03 by nle-gued          #+#    #+#             */
-/*   Updated: 2025/06/09 15:17:01 by nle-gued         ###   ########.fr       */
+/*   Updated: 2026/01/09 14:53:36 by mniemaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -172,7 +172,7 @@ void				free_tab(char **tab, int limit);
 int					ft_dprintf(int fd, const char *fmt, ...);
 
 // lst
-void				ft_lstadd_back(t_node **lst, t_node *new);
+void				ft_lstadd_back(t_node **lst, t_node *new_node);
 t_node				*ft_lstlast(t_node *lst);
 t_node				*ft_lstnew(void *content);
 void				ft_lstdelone(t_node *lst, void (*del)(void *));
