@@ -21,5 +21,5 @@ A simplified shell implementation in C, mimicking basic functionalities of Unix 
    ```bash
    ./minishell
    ```
-   # DEMO
-   https://github.com/user-attachments/assets/f63511c5-1213-4ba7-9a2c-696d7f9bfbd6
+# DEMO
+https://github.com/user-attachments/assets/f63511c5-1213-4ba7-9a2c-696d7f9bfbd6
